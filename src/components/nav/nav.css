@@ -1,0 +1,17 @@
+nav > *{
+    text-decoration: none;
+    margin: 0 2%;
+    padding: 1rem 2.5rem;
+    background: var(--color-2);
+    color: var(--color);
+    list-style: none;
+    border-radius: 2rem;
+}
+nav{
+    background: var(--bg-2, inherit);
+    display: flex;
+    justify-content: space-around
+}
+.Active{
+    background: var(--color-a);
+}

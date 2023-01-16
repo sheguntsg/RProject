@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+:root{
+    --bg: black;
+    --color:blue;
+    --bg-2:rgb(63, 39, 39);
+    --color-2:rgb(18, 18, 125);
+    --color-a:rgb(88, 62, 62); 
+    
+}
+body{
+    background: var(--bg);
+    color: var(--color);
+}
+.none{
+    display: none;
+}
+.b{
+    display: block;
+}
+a :hover{
+    cursor:grab;
+}
